@@ -192,8 +192,52 @@ section {
     color: var(--secondary);
     margin-bottom: 20px;
 }
-.skill-item .skill-item-pera{
+
+.skill-item .skill-item-pera {
     color: var(--darkThree);
 }
 
 /* what i do css end */
+/* resume css start */
+.resume-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.resume-content div {
+    margin-right: 24px;
+}
+.edu-site{
+    margin: 30px 0;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--darkTwo);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--darkTwo);
+    margin-bottom: 10px;
+}
+.resume-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--darkThree);
+    margin-bottom: 20px;
+}
+.resume-pera{
+    color: var(--darkThree);
+    font-weight: 400;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* resume css end */
