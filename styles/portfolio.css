@@ -23,15 +23,32 @@
     color: #ffffff;
     background-color: var(--primary);
     border-radius: 5px;
-    border: 0;
+    border: 2px solid var(--primary);
     padding: 15px 30px;
     transition: all 0.3s;
     cursor: pointer;
 }
 
-.btn-primary:hover {
-    background-color: hsl(25, 98%, 45%);
+.btn-secondery {
+    color: var(--primary);
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s;
+    margin-left: 10px;
 }
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #FD6E0A;
+}
+
+.btn-secondery:hover {
+    color: #ffffff;
+    background-color: var(--primary);
+
+}
+
 
 .header {
     color: var(--bgColor);
@@ -54,8 +71,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
-    margin-left: 175px;
+    padding: 50px 200px;
+    padding-left: 175px;
 
 }
 
@@ -207,7 +224,7 @@ section {
     gap: 24px;
 }
 
-.edu-site{
+.edu-site {
     margin: 30px 0;
 }
 
@@ -223,46 +240,55 @@ section {
     color: var(--darkTwo);
     margin-bottom: 10px;
 }
+
 .resume-subtitle {
     font-weight: 600;
     font-size: 20px;
     color: var(--darkThree);
     margin-bottom: 20px;
 }
-.resume-pera{
+
+.resume-pera {
     color: var(--darkThree);
     font-weight: 400;
 }
-.resume-btn{
+
+.resume-btn {
     margin-top: 50px;
     text-align: center;
 }
 
 /* resume css end */
 /* contact css start  */
-.contact{
+.contact {
     background-color: var(--bgColor);
     padding: 180px 200px;
     display: flex;
     gap: 100px;
 }
-.contact div{
+
+.contact div {
     flex: 1;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
-.contact .contact-pera{
+
+.contact .contact-pera {
     color: #474747;
     margin-right: 15px;
     margin-bottom: 30px;
     line-height: 28px;
 }
-.contact-form{
+
+.contact-form {
     display: flex;
     flex-direction: column;
 }
-.contact-form input, textarea{
+
+.contact-form input,
+textarea {
     width: 100%;
     border: 0;
     margin-bottom: 20px;
@@ -272,11 +298,14 @@ section {
     border-radius: 5px;
     resize: none;
 }
-input{
+
+input {
     height: 64px;
 }
-.social-link{
+
+.social-link {
     display: flex;
     gap: 20px;
 }
+
 /* contact css end */
