@@ -1,0 +1,161 @@
+:root {
+    --primary: #FD6E0A;
+    --secondary: #181818;
+    --darkTwo: #474747;
+    --darkThree: #757575;
+    --bgColor: #FFF8F3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--primary);
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: hsl(25, 98%, 45%);
+}
+
+.header {
+    color: var(--bgColor);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left center;
+    margin-left: 25px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* nav bar css  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+    margin-left: 175px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    color: var(--darkTwo);
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    color: var(--secondary);
+}
+
+
+/* nav bar css end */
+/* banner css start */
+.hero-banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    margin-left: 175px;
+}
+
+.hero-banner div {
+    width: 50%;
+}
+
+.banner-sub-heading {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--darkTwo);
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: var(--secondary);
+    margin-bottom: 20px;
+}
+
+.banner-pera {
+    color: var(--darkThree);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    margin-right: -300px;
+    display: block;
+}
+
+/* banner css end */
+main {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.about {
+    padding: 130px 150px;
+    background-color: var(--bgColor);
+    border-radius: 10px;
+}
+
+.about-pera {
+    font-size: 18px;
+    color: var(--darkThree);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.aurtherInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.aurtherInfo .about-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--darkThree);
+}
+
+.aurtherInfo .about-des {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--darkTwo);
+}
