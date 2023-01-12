@@ -303,6 +303,9 @@ textarea {
 input {
     height: 64px;
 }
+input[type="submit"]{
+    border: 2px solid var(--primary);
+}
 
 .social-link {
     display: flex;
